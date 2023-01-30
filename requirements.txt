@@ -1,0 +1,2 @@
+aiogram==2.23.1
+alpaca-trade-api==2.3.0
