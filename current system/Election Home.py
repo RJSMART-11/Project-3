@@ -4,7 +4,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import time
-import streamlit_authenticator as stauth
 import plotly as plotly
 import bokeh as plt
 import os
@@ -70,8 +69,17 @@ data = np.random.randn(10, 1)
 ## Tab 1 - Election Home
 with tab1:
     st.subheader("Election Home")
-    st.write("")
-
+    st.write("Election of Chairperson to the board of the NFT Bank")
+    st.write("We are the world’s preeminent decentralized financial institution for the valuation, management and storage of NFT’s. ")
+    st.write("Our significant growth in the last 24 months reflects the global interest, and recognition of NFT’s as a technology that will supersede the clumsy, opaque and labour-intensive record keeping processes used until now.")
+    st.write("The future growth and development of NFT Bank demands the role of Chairperson is filled by the candidate who can deliver the vision, entrepreneurial approach and compelling leadership that will continue to propel the organisation on a success trajectory that leaves potential competitors in its wake.")
+    st.subheader("The voting process is set out by the Australian Security & Investments Commission (ASIC), as follows:")
+    st.write("1.	Candidates: a list of eligible candidates was prepared. And the company’s shareholders have been informed.")
+    st.write("2.	Voting: each shareholder of the company is allowed to cast their vote for a candidate. This will be done through a secure online platform.")
+    st.write("3.	Counting: the votes should be counted and verified by an independent auditor or a designated vote counting committee.")
+    st.write("4.	Announce the result: The result of the vote should be announced publicly, either through an official company statement or by the designated vote counting committee.")
+    st.write("5.	Appoint the chairperson: If a candidate receives a majority of the votes cast, they will be appointed as the chairperson of the board. In case of a tie, a run-off election will be held.")
+    st.write("ASIC encourages this system to be further improved and made secure by incorporating measures such as encryption, secure storage of votes, and a transparent and auditable voting process. Additional measures can be put in place to prevent vote manipulation and ensure the fairness of the election. NFT Bank has employed blockchain powered voting technology which ensures a transparent, instant, secure and a highly auditable process that meets, if not exceeds ASIC requirements.")
 
 ## Tab 3 - Candidates Details
 with tab2:
@@ -104,10 +112,10 @@ with tab3:
     st.write("Total Vote supply: 1000")
     st.write(f"Total Remaining: {balance}")
     st.write("Duration:")
-    st.write("Voting Rules: ")
-    st.write("- One vote per shareholder")
-    st.write("- OTP require to authenticate Identification")
-    st.write("- All votes are required to be entered by the end of the'Election Duration' to be deemed as vaild")
-
-
+    st.subheader("Voting Rules: ")
+    st.write("• One vote per shareholder")
+    st.write("• Shareholders must register to receive a One Time Password (OTP)")
+    st.write("• The OTP identifies the shareholder in the blockchain allowing them to cast a single secure and unique vote to the shareholder’s preferred candidate")
+    st.write("• While casting their vote the system will also record an image of the shareholder placing the vote to eradicate manipulation of the system")
+    st.write("• All votes are required to be entered within the ‘Election Duration’ to be deemed as valid.")
 

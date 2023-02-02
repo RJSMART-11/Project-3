@@ -150,6 +150,16 @@ with tab3:
     confirm_selection = st.checkbox(f"I {_fullName} confirm my information and selection '{selected_candidate}' is correct.")
     st.warning('Confirmation Warning: Please make sure your information and selection is correct.', icon="⚠️")
     if confirm_selection:
+        
+        ## Photo/ID verification
+        picture = st.camera_input("Take a picture", key = "1")
+
+        if picture:
+            filename = f'{_fullName}.jpg'
+            filepath = os.path.join('Images/Photo verification', filename)
+            with open(filepath, 'wb') as file:
+                file.write(picture.getbuffer())
+
 
         ## Cast Vote function
         if st.button("Cast Vote"):
