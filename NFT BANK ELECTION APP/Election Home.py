@@ -80,11 +80,7 @@ with tab1:
     st.write("5.	Appoint the chairperson: If a candidate receives a majority of the votes cast, they will be appointed as the chairperson of the board. In case of a tie, a run-off election will be held.")
     st.write("ASIC encourages this system to be further improved and made secure by incorporating measures such as encryption, secure storage of votes, and a transparent and auditable voting process. Additional measures can be put in place to prevent vote manipulation and ensure the fairness of the election. NFT Bank has employed blockchain powered voting technology which ensures a transparent, instant, secure and a highly auditable process that meets, if not exceeds ASIC requirements.")
 
-<<<<<<< HEAD:NFT BANK ELECTION APP/Election Home.py
 ## Tab 2 - Candidates Details
-=======
-## Tab 3 - Candidates Details
->>>>>>> 76e1d1583fd88fd3fe2f44fb2d329bcf378764ca:current system/Election Home.py
 with tab2:
     st.subheader("Candidates")
     candidates = ['Gavin Sharp', 'Rochelle Grant']
