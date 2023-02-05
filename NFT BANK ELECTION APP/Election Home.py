@@ -114,10 +114,7 @@ with tab3:
     st.subheader("Election Details")
     st.write("Total Vote supply: 1000")
     st.write(f"Total Remaining: {balance}")
-<<<<<<< HEAD:NFT BANK ELECTION APP/Election Home.py
-=======
     st.write("Duration:")
->>>>>>> 76e1d1583fd88fd3fe2f44fb2d329bcf378764ca:current system/Election Home.py
     st.subheader("Voting Rules: ")
     st.write("• One vote per shareholder")
     st.write("• Shareholders must register to receive a One Time Password (OTP)")
