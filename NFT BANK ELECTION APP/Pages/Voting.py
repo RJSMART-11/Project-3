@@ -20,6 +20,7 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
+# Load in SMTP for OTP verification
 GM_PASS="jltsmqhrjpafmsmp"
 GM_LOGIN="protect3vote@gmail.com"
 
@@ -89,6 +90,7 @@ def load_contract():
 # Load the contract
 contract = load_contract()
 
+#load in Contract/Ganache Addresses
 address = "0x9386008bAdE0B1e5DfF07FC187DecB80D8FbBd6c"
 g_address = "0x7D7EB8f41b9fe127E6055c6Ad0a00B09d3a88AED"
 r_address = "0x21205F43e7Ac29CE1bE70f009774A7B39E011979"
@@ -96,9 +98,8 @@ balance = contract.functions.balanceOf(address).call()
 g_balance = contract.functions.balanceOf(g_address).call()
 r_balance = contract.functions.balanceOf(r_address).call()
 num_voted = 1000 - balance
+
 ## Create Dataframe function
-
-
 def update_df():
     # Get the current time
     current_time = datetime.datetime.now()
@@ -116,7 +117,7 @@ def update_df():
     df.to_csv('Election_results_DF.csv', index=False)
     
     return df
-
+#Load Updated dataframe
 new_df = pd.read_csv('Election_results_DF.csv')
 new_df['pct_change'] = new_df['Votes Remaining'].pct_change()
 
@@ -133,7 +134,9 @@ col2.metric("Rochelle Grant", f"{r_balance}", )
 col3.metric("Votes Remaining", f"{balance}", )
 col4.metric("Voted", f"{num_voted}")
 
+#Initate SMPTauthorizer for OTP
 otp_verifier = SMTPauthorizer()
+
 ## Create Tabs For User election functions and stats
 tab1, tab2,  = st.tabs(["📈Election Stats", "Vote!"])
 
@@ -144,7 +147,7 @@ with tab1:
     category = ['Overall', 'Gavin Sharp', 'Rochelle Grant']
     selected_category = st.selectbox("Choose a category", category)
 
-# Provide information based on the selected candidate
+# Provide statsistical information based on the election and selected candidate
 
     if selected_category == 'Overall':
         st.subheader("Overall Election Statistics")
