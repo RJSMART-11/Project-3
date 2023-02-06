@@ -13,6 +13,7 @@ It combines blockchain technology with a Streamlit user interface and has been d
 
 - Solidity: used to create the smart contract and execute the blockchain transactions
 - Remix IDE: enabled the compiling and editing of the Solidity code and the is the application where the code is run
+- OpenZepplin: library for ERC20 conrtacts
 - Ganache: to provide pre funded etherum accounts and transactions
 - Web3: to deploy the blockchain contract
 - Streamlit: enable an application in a web browser to provide interaction with the ledger, or simply put - to create a user friendly interface and run the voting process
