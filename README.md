@@ -20,7 +20,7 @@ It combines blockchain technology with a Streamlit user interface and has been d
 - Visual Studio: coding envirnment for Streamlit application
 - Metamask: as the wallet environment to interact with Ganache
 
-To see all libraries and dependencies please refere to each coding file in the above folders.
+To see all libraries and dependencies please refer to individual working files in the above folders.
 
 -------------------------------------------
 **Solution Overview**
