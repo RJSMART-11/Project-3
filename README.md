@@ -1,4 +1,4 @@
-# Project-3 Group 1
+# Project 3, Group 1
 **Blockchain Election Voting System**
 
 -----------------------------------------
@@ -30,8 +30,7 @@ To see all libraries and dependencies please refer to individual working files i
 4. Compile and run the process
 5. Deploy the contract in in the 'injected Web3' environment
 6. Launch terminal and open the voting.py and Election_Home.py files in the folders above in the Streamlit application 
-7. To run the election process of the user interface please go to the instructional video video : https://vimeo.com/796145039
-
+7. To view the election process user interface please go to the instructional video video : https://vimeo.com/796145039
 
 -------------------------------------------
 **Contributors**
