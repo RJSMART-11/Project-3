@@ -94,6 +94,8 @@ contract = load_contract()
 address = "0x9386008bAdE0B1e5DfF07FC187DecB80D8FbBd6c"
 g_address = "0x7D7EB8f41b9fe127E6055c6Ad0a00B09d3a88AED"
 r_address = "0x21205F43e7Ac29CE1bE70f009774A7B39E011979"
+
+# Call Balances from contract and set up varibles for them
 balance = contract.functions.balanceOf(address).call()
 g_balance = contract.functions.balanceOf(g_address).call()
 r_balance = contract.functions.balanceOf(r_address).call()
