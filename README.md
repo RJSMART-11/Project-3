@@ -1,5 +1,5 @@
 # Project-3 Group 1
-##Blockchain Election Voting System
+**Blockchain Election Voting System**
 
 -----------------------------------------
 **Introduction**
