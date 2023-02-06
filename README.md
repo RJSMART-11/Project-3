@@ -30,8 +30,9 @@ To see all libraries and dependencies please refer to individual working files i
 3. Open Remix IDE and open the election.sol file
 4. Compile and run the process
 5. Deploy the contract in in the 'injected Web3' environment
-6. Launch terminal and open the voting.py and Election_Home.py files in the folders above in the Streamlit application 
-7. To view the election process user interface please go to the instructional video video : https://vimeo.com/796145039
+6. Update the Env and python files wallet address to your specific needs
+7. Launch terminal and open the voting.py and Election_Home.py files in the folders above in the Streamlit application 
+8. To view the election process user interface please go to the instructional video video : https://vimeo.com/796145039
 
 -------------------------------------------
 **Contributors**
