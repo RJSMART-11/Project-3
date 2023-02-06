@@ -25,8 +25,8 @@ To see all libraries and dependencies please refer to individual working files i
 
 -------------------------------------------
 **Solution Overview**
-1. Instal Matamask and create an account
-2. Instal the Ganache Truffle Suite on your desktop
+1. Install Metamask and create an account
+2. Install the Ganache Truffle Suite on your desktop
 3. Open Remix IDE and open the election.sol file
 4. Compile and run the process
 5. Deploy the contract in in the 'injected Web3' environment
