@@ -1,2 +1,2 @@
 # Project-3
-New Zealand - Blockchain Voting System
+Blockchain Election Voting System
