@@ -90,7 +90,7 @@ def load_contract():
 # Load the contract
 contract = load_contract()
 
-#load in Contract/Ganache Addresses
+#load in Contract Owner/Ganache Addresses"Candidate 1/Candidate 2"
 address = "0x9386008bAdE0B1e5DfF07FC187DecB80D8FbBd6c"
 g_address = "0x7D7EB8f41b9fe127E6055c6Ad0a00B09d3a88AED"
 r_address = "0x21205F43e7Ac29CE1bE70f009774A7B39E011979"
