@@ -152,9 +152,6 @@ with tab1:
         st.bar_chart(data=new_df, x="Timestamp", y=["Gavin Sharp", "Rochelle Grant"], use_container_width=True)
         st.line_chart(new_df, x="Timestamp", y=["Gavin Sharp", "Rochelle Grant"])
         st.write(new_df)
-        st.markdown("### Second Chart")
-        fig2 = px.pie(data_frame=new_df,)
-        st.write(fig2)
 
     elif selected_category == 'Gavin Sharp':
         st.subheader("Gavin Sharp")
