@@ -25,6 +25,14 @@ To see all libraries and dependencies please refer to individual working files i
 
 -------------------------------------------
 **Solution Overview**
+
+The system enables one vote per candidate by each person voting. The process from the user has been kept as easy and simple as possible to ensure easy compliance and remove any barriers to accepting the technology and using the system.
+
+In practice the process would be:
+a) user is provide with a secure link via email or message service
+b) once accessed, the site provide information on the purpose and process, candidates and real time status of the campaign.
+c) 
+
 1. Install Metamask and create an account
 2. Install the Ganache Truffle Suite on your desktop
 3. Open Remix IDE and open the election.sol file
@@ -35,7 +43,24 @@ To see all libraries and dependencies please refer to individual working files i
 8. To view the election process user interface please go to the instructional video video : https://vimeo.com/796145039
 
 -------------------------------------------
+**Future Developments**
+
+The current platform has the capacity to evolve to include:
+
+1.  User verification against a unique database. 
+    This would include features to upload a database record of 'voters' to the blockchain that confirms their 
+    identity as an option to requiring an OTP
+
+2.  Providing voters with an number of tokens that reflects their shareholder/status rights, or allows voting across a range of issues:
+    a) allows voters to place greater weight their choice of candidate/issue based on their voting rights
+    b) provides voters with the ability to vote across a panel of candidates/issues
+    
+3.  Database of all transactions including visual or other verification
+-------------------------------------------
 **Contributors**
+
+To discuss this project or the potential for future development please contact:
+
 Robert Smart: robertjonathonsmart@gmail.com
 Karin Halpin: karin_halpin@yahoo.com.au
 Danny Milsom: dannymilsom@y7mail.com
