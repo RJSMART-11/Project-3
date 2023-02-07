@@ -30,8 +30,13 @@ The system enables one vote per candidate by each person voting. The process fro
 
 In practice the process would be:
 a) user is provide with a secure link via email or message service
-b) once accessed, the site provide information on the purpose and process, candidates and real time status of the campaign.
-c) 
+b) once accessed the site provides information on the purpose and process, candidates and real time status of the campaign
+c) the voter is required to verify their identity via a one-time-password (OTP)
+d) the OTP enables access to select a candidate and cast a vote
+e) prior to casting the vote a visual record, photograph, of the voter is captured by the system
+d) once cast the vote is recorded by the blockchain and passed to the system to update the progress of the poll
+
+To operate the system:
 
 1. Install Metamask and create an account
 2. Install the Ganache Truffle Suite on your desktop
